@@ -6,3 +6,5 @@ console.log(40 + 2 - 21 + (21 / 2) * 2);
 
 let firstName = "Fukurou";
 console.log(firstName);
+console.log(typeof (firstName));
+
