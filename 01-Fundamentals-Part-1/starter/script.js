@@ -33,3 +33,26 @@ if (birthYear <= 2000){
 }
 
 console.log(`${firstName} was born in the ${century} century`);
+
+let day = 'Thursday';
+
+switch (day){
+    case 'Monday':
+        console.log("bruh today is monday");
+        break;
+    case 'Thursday':
+        console.log(`Today is thursday... ok`);
+        break;
+    default:
+        console.log("I'm so tired");
+}
+
+const johnAge = 23;
+
+// TERNARIES
+johnAge >= 18 ? console.log("John likes to drink sake") : console.log("John isn't old enough to drink sake");
+
+const drink = johnAge >= 18 ? true : false; // drink will be true/false
+
+console.log(`John really likes to drink ${johnAge >= 18 ? 'sake' : 'water'}`);
+
