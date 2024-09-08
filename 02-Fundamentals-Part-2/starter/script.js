@@ -205,3 +205,21 @@ for (let i = 0; i < dummyArray.length; i++) {
     }
     console.log(dummyArray[i]);
 }
+
+// Looping bakcwards
+
+
+for (let i = fukurouArray.length - 1; i >= 0; i--) {
+    console.log(fukurouArray[i]);
+}
+
+
+// Nested loops
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+    console.log(`-------- Starting Exercise ${exercise}`);
+
+    for (let rep = 1; rep <= 5; rep++) {
+        console.log(`Exercise ${exercise} | repetition ${rep}`);
+    }
+}
