@@ -195,7 +195,7 @@ for (let i = 0; i < fukurouArray.length; i++) {
         continue;
     }
     console.log(fukurouArray[i]);
-}
+}   
 
 const dummyArray = [2020, 20224, 2101, 39022, "3812190", 231, 10 , 21921 , 21321, 432]
 
@@ -223,3 +223,22 @@ for (let exercise = 1; exercise <= 3; exercise++) {
         console.log(`Exercise ${exercise} | repetition ${rep}`);
     }
 }
+
+// While loop
+
+let bruh = 0;
+
+while (bruh < 4) {
+    console.log(`While bruh = ${bruh}`);
+    bruh++;
+}
+
+console.log("---------- DICE ROLL --------------");
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+while (dice !== 6) {
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+}
+
+console.log(`You finally rolled a --> 6 <-- !!`);
